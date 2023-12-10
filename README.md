@@ -18,9 +18,9 @@ Créez un projet Maven nommé `AOP-TP1-Using-AspectJ` avec les dépendances suiv
 
 On va télécharger le tisseur d'aspect AspectJ à partir de ce lien : https://www.eclipse.org/downloads/download.php?file=/tools/aspectj/aspectj-1.9.6.jar
 
-![img.png](img.png)
+![img.png](src/main/java/ma/enset/captures/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](src/main/java/ma/enset/captures/img_1.png)
 
 #### 3. Ajout des dépendances
 ```xml
@@ -35,11 +35,11 @@ On va télécharger le tisseur d'aspect AspectJ à partir de ce lien : https://w
 
 #### 4. Ajout du facete AspectJ
 
-![img_2.png](img_2.png)
+![img_2.png](src/main/java/ma/enset/captures/img_2.png)
 
 #### 5. Spécification du compilateur AspectJ
 File > Settings > Build, Execution, Deployment > Compiler > Java Compiler
-![img_4.png](img_4.png)
+![img_4.png](src/main/java/ma/enset/captures/img_4.png)
 
 #### 6. Création du point de coupe
 ```java
@@ -64,7 +64,7 @@ public aspect FirstAspect {
 Pour around, on utilise la méthode ***proceed()*** pour exécuter la méthode main().
 
 #### 7. Exécution du programme
-![img_5.png](img_5.png)
+![img_5.png](src/main/java/ma/enset/captures/img_5.png)
 
 On constate que le point de coupe est bien exécuté avant et après l'exécution de la méthode main.
 
@@ -110,7 +110,7 @@ On peut aussi utiliser la syntaxe ***@Around*** pour exécuter le code avant et 
 
 #### 8. Exécution du programme
 On constate que les deux aspects sont exécutés.
-![img_6.png](img_6.png)
+![img_6.png](src/main/java/ma/enset/captures/img_6.png)
 
 #### Conclusion
 
