@@ -2,7 +2,12 @@
 
 La programmation orientée aspect est un paradigme de programmation qui permet de séparer les préoccupations transversales (logging, sécurité, transaction, etc.) des préoccupations fonctionnelles.
 
+il existe deux types de tisseurs d'aspects :
+- Tisseur d'aspects statique : les aspects sont tissés au moment de la compilation.
+- Tisseur d'aspects dynamique : les aspects sont tissés au moment de l'exécution.
+
 Dans cette activité, nous allons utiliser AspectJ et Spring AOP.
+
 
 #### 1. Création du projet
 

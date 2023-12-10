@@ -1,6 +1,5 @@
 package ma.enset;
 
-import org.aspectj.ajdt.internal.compiler.ast.Proceed;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 
