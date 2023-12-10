@@ -112,6 +112,10 @@ On peut aussi utiliser la syntaxe ***@Around*** pour exécuter le code avant et 
 On constate que les deux aspects sont exécutés.
 ![img_6.png](img_6.png)
 
+#### Conclusion
+
+Dans cette activité, on a utilisé le tisseur d'aspects AspectJ pour tisser des aspects avec deux syntaxes différentes : AspectJ et Class.
+
 
 
 
