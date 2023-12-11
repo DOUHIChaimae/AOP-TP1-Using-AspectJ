@@ -1,4 +1,4 @@
-### Activité Pratique AOP
+### Programmation Orientée Aspect (AOP) avec AspectJ 📚
 
 La programmation orientée aspect est un paradigme de programmation qui permet de séparer les préoccupations transversales (logging, sécurité, transaction, etc.) des préoccupations fonctionnelles.
 
@@ -112,7 +112,7 @@ On peut aussi utiliser la syntaxe ***@Around*** pour exécuter le code avant et 
 On constate que les deux aspects sont exécutés.
 ![img_6.png](src/main/java/ma/enset/captures/img_6.png)
 
-#### Conclusion
+#### Conclusion 🌟 
 
 Dans cette activité, on a utilisé le tisseur d'aspects AspectJ pour tisser des aspects avec deux syntaxes différentes : AspectJ et Class.
 
